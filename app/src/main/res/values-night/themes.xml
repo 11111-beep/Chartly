@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chartly" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary: 电光青蓝 -->
+        <item name="colorPrimary">#00FFF7</item>
+        <item name="colorOnPrimary">#0A0A0A</item> <!-- 浅色背景时文字仍清晰 -->
+
+        <!-- Secondary: 深邃紫蓝 -->
+        <item name="colorSecondary">#1F1F35</item>
+        <item name="colorSecondaryVariant">#30324D</item>
+        <item name="colorOnSecondary">#D3D3D3</item>
+
+        <!-- Surface: 暗面玻璃 -->
+        <item name="colorSurface">#1A1A1A</item>
+        <item name="colorOnSurface">#D0FDFE</item>
+
+        <!-- Error: 赛博红警 -->
+        <item name="colorError">#FF3C64</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- 状态栏 -->
+        <item name="android:statusBarColor" tools:targetApi="l">#000000</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#000000</item>
+
+    </style>
+</resources>

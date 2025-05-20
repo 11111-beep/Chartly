@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Macaron Color Palette -->
+    <color name="macaron_pink">#F8BBD0</color>
+    <color name="macaron_mint">#B2DFDB</color>
+    <color name="macaron_lavender">#D1C4E9</color>
+    <color name="macaron_yellow">#FFF9C4</color>
+    <color name="macaron_blue">#BBDEFB</color>
+    <color name="macaron_peach">#FFCCBC</color>
+    
+    <color name="gradient_start">#F8BBD0</color> <!-- Macaron Pink -->
+    <color name="gradient_end">#B2DFDB</color>   <!-- Macaron Mint -->
+
+    <color name="gray_800">#4F4F4F</color>
+    <color name="gray_700">#666666</color>
+    <color name="gray_600">#808080</color>
+    <color name="gray_500">#AAAAAA</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+
+    <color name="nav_background">#FFFFFF</color>
+
+</resources>

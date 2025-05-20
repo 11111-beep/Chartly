@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#474747" />
+            <corners android:radius="16dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#00FFF7" /> <!-- 冷光蓝色边框 -->
+        </shape>
+    </item>
+
+    <!-- 默认状态 -->
+    <item>
+        <shape>
+            <solid android:color="#545454" />
+            <corners android:radius="16dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#00FFF7" /> <!-- 冷光蓝色边框 -->
+        </shape>
+    </item>
+</selector>

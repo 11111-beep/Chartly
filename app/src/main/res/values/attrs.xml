@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressCircleView">
+        <attr name="progress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="startAngle" format="float" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressStartColor" format="color" />
+        <attr name="progressEndColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="showText" format="boolean" />
+        <attr name="roundedCorners" format="boolean" />
+    </declare-styleable>
+</resources>

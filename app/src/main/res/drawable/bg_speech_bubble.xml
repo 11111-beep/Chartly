@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main bubble -->
+    <item android:right="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_blue"/>
+            <stroke android:width="2dp" android:color="#64B5F6"/>
+            <corners android:radius="16dp"/>
+            <padding android:left="12dp" android:top="8dp" android:right="12dp" android:bottom="8dp"/>
+        </shape>
+    </item>
+    
+    <!-- Small triangle for tail effect -->
+    <item android:right="2dp" android:gravity="right|bottom">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/macaron_blue"/>
+                <stroke android:width="2dp" android:color="#64B5F6"/>
+                <size android:width="15dp" android:height="15dp"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

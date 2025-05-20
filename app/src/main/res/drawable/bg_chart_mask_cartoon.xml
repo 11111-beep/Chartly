@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_lavender"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+    
+    <!-- Hand-drawn style border -->
+    <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="2dp" android:color="#B39DDB" android:dashWidth="8dp" android:dashGap="4dp"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+    
+    <!-- Decorative dots in corners -->
+    <item android:top="8dp" android:left="8dp" android:width="6dp" android:height="6dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_pink"/>
+        </shape>
+    </item>
+    
+    <item android:top="8dp" android:right="8dp" android:width="6dp" android:height="6dp" android:gravity="right">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_mint"/>
+        </shape>
+    </item>
+    
+    <item android:bottom="8dp" android:left="8dp" android:width="6dp" android:height="6dp" android:gravity="bottom">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_blue"/>
+        </shape>
+    </item>
+    
+    <item android:bottom="8dp" android:right="8dp" android:width="6dp" android:height="6dp" android:gravity="bottom|right">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_yellow"/>
+        </shape>
+    </item>
+</layer-list>

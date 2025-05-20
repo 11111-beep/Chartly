@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTitleBar">
+        <!-- 标题文字 -->
+        <attr name="titleText" format="string" />
+        <!-- 图标资源（可选覆盖） -->
+        <attr name="iconBack" format="reference" />
+        <attr name="iconMenu" format="reference" />
+        <attr name="iconDownload" format="reference" />
+    </declare-styleable>
+</resources>

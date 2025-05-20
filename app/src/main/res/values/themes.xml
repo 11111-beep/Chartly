@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Chartly" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary: 电光青蓝 -->
+        <item name="colorPrimary">#00FFF7</item>
+        <item name="colorOnPrimary">#0A0A0A</item>
+
+        <!-- Secondary: 深邃紫蓝 -->
+        <item name="colorSecondary">#1F1F35</item>
+        <item name="colorSecondaryVariant">#30324D</item>
+        <item name="colorOnSecondary">#D3D3D3</item>
+
+        <!-- Surface: 暗面玻璃 -->
+        <item name="colorSurface">#1A1A1A</item>
+        <item name="colorOnSurface">#D0FDFE</item>
+
+        <!-- Error: 赛博红警 -->
+        <item name="colorError">#FF3C64</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- 默认状态栏和导航栏 -->
+        <item name="android:statusBarColor" tools:targetApi="l">#000000</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#000000</item>
+    </style>
+
+    <style name="Theme.Chartly" parent="Base.Theme.Chartly">
+        <!-- 把状态栏改成电光青蓝 -->
+        <item name="android:statusBarColor">#ACD9F4</item>
+        <!-- 可选：如果状态栏图标要显示深色，请打开下面这一行 -->
+        <!-- <item name="android:windowLightStatusBar">true</item> -->
+    </style>
+
+</resources>
