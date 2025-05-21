@@ -31,10 +31,10 @@
 ### 技术栈
 
 * **平台：** Android
-* **主要语言：** [Kotlin]
-* **图表库：** [MPAndroidChart]
-* **数据处理：** [Apache POI]
-* **其他：** [自定义view]
+* **主要语言：** Kotlin
+* **图表库：** MPAndroidChart
+* **数据处理：** Apache POI
+* **其他：** 自定义view
 
 ---
 
@@ -46,7 +46,7 @@
 
 1.  **下载 APK 文件：**
     * 点击这里下载最新版本的 Chartly APK：
-        [**下载 Chartly 最新 APK**](https://github.com/11111-beep/Chartly/app/release/app-release.apk)
+        [**下载 Chartly 最新 APK**](https://github.com/11111-beep/Chartly/releases/download/v1.0.0/app-release.apk)
 2.  **允许安装未知来源应用：**
     * 在下载并尝试安装 APK 时，Android 系统可能会提示你“**为了安全，你的手机目前不允许安装此来源的应用**”。你需要进入手机的“**设置**” -> “**安全**”或“**隐私**”（不同手机可能路径不同），找到“**安装未知应用**”或“**未知来源**”选项，并**允许**你的浏览器或文件管理器安装应用。
     * **温馨提示：** 完成安装后，为了安全考虑，你可以选择关闭此选项。
