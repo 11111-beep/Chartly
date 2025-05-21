@@ -44,7 +44,7 @@
 安装 Chartly 非常简单，**无需任何复杂的环境配置**！
 
 1.  **下载 APK 文件：**
-    * 点击这里下载最新版本的 Chartly APK：
+    * 点击下载最新版本的 Chartly APK：
         👉 [📥 立即下载 Chartly APK](https://github.com/11111-beep/Chartly/releases/download/v1.0.0/app-release.apk)
 2.  **允许安装未知来源应用：**
     * 在下载并尝试安装 APK 时，Android 系统可能会提示你“**为了安全，你的手机目前不允许安装此来源的应用**”。你需要进入手机的“**设置**” -> “**安全**”或“**隐私**”（不同手机可能路径不同），找到“**安装未知应用**”或“**未知来源**”选项，并**允许**你的浏览器或文件管理器安装应用。
@@ -62,17 +62,21 @@
 
 1.  **选择图表类型：**
     * 在数据预览下方或侧边栏，选择你希望生成的图表类型，例如**条形图**、**折线图**、**饼图**或**散点图**等。
+      
       <img src="https://raw.githubusercontent.com/11111-beep/Chartly/main/app/src/main/res/drawable/guide1.png" width="400">
+
       
 2.  **导入数据：**
     * 启动应用后，短按/长按添加数据点,在编辑框上输入你的数据,点击主界面上的“**保存或刷新**”按钮，或者点击右上角左边的按钮选择你要处理的 CSV 或 Excel 文件。
       
       <img src="https://raw.githubusercontent.com/11111-beep/Chartly/main/app/src/main/res/drawable/guide2.png" width="400">
+
       
 3.  **实时预览：**
     * 在配置过程中，你可以点击左上角右边的图表打开滑动目录切换图表,图表会实时更新预览，让你即时看到修改后的效果。
       
       <img src="https://raw.githubusercontent.com/11111-beep/Chartly/main/app/src/main/res/drawable/guide3.png" width="400">
+
       
 4.  **导出图表：**
     * 当你对图表满意后，点击右上角“**导出**”图标。你可以选择将图表保存为高质量的PNG图片，方便分享或用于报告。
