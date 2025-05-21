@@ -16,6 +16,8 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/11111-beep/Chartly/main/app/src/main/res/mipmap-hdpi/ic_icon1.png" width="400">
+
 ## 关于 Chartly
 
 在数据驱动的时代，理解和传达信息至关重要。**Chartly** 应运而生，致力于让数据可视化变得简单、快速且高效。无论你是数据分析师、学生，还是仅仅想更好地理解你的数据，Chartly 都能为你提供所需的工具。
