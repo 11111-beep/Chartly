@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 主背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_blue" />
+            <corners android:radius="10dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#64B5F6"
+                android:dashWidth="4dp"
+                android:dashGap="2dp" />
+        </shape>
+    </item>
+    
+    <!-- 装饰性圆点 -->
+    <item android:right="8dp" android:top="8dp" android:width="4dp" android:height="4dp" android:gravity="right|top">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_pink"/>
+        </shape>
+    </item>
+    
+    <item android:left="8dp" android:bottom="8dp" android:width="4dp" android:height="4dp" android:gravity="left|bottom">
+        <shape android:shape="oval">
+            <solid android:color="@color/macaron_mint"/>
+        </shape>
+    </item>
+    
+    <!-- 装饰性波浪线 -->
+    <item android:top="4dp" android:left="4dp" android:right="4dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#64B5F6" android:dashWidth="2dp" android:dashGap="1dp"/>
+        </shape>
+    </item>
+</layer-list>
+
+

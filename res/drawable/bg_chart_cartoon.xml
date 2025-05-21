@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 主背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_yellow" />
+            <stroke android:width="2dp" android:color="#FFF59D"/>
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    
+    <!-- 装饰性波浪线 -->
+    <item android:top="8dp" android:left="8dp" android:right="8dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#FFF59D" android:dashWidth="4dp" android:dashGap="2dp"/>
+        </shape>
+    </item>
+    
+    <item android:bottom="8dp" android:left="8dp" android:right="8dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#FFF59D" android:dashWidth="4dp" android:dashGap="2dp"/>
+        </shape>
+    </item>
+    
+    <!-- 装饰性星星 -->
+    <item android:right="12dp" android:top="12dp" android:width="8dp" android:height="8dp" android:gravity="right|top">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_pink"/>
+            <rotate android:fromDegrees="45"/>
+        </shape>
+    </item>
+    
+    <item android:left="12dp" android:bottom="12dp" android:width="8dp" android:height="8dp" android:gravity="left|bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/macaron_mint"/>
+            <rotate android:fromDegrees="45"/>
+        </shape>
+    </item>
+</layer-list>
