@@ -71,6 +71,7 @@
       
 3.  **实时预览：**
     * 在配置过程中，你可以点击左上角右边的图表打开滑动目录切换图表,图表会实时更新预览，让你即时看到修改后的效果。
+      
       <img src="https://raw.githubusercontent.com/11111-beep/Chartly/main/app/src/main/res/drawable/guide3.png" width="400">
       
 4.  **导出图表：**
@@ -104,7 +105,7 @@ Chartly 目前支持以下核心图表类型：
 
 ## 联系方式
 
-* 你的姓名 -苦~艾酒 [你的邮箱](1920634907@qq.com)
+* 你的姓名 -HQW [苦~艾酒](mailto:1920634907@qq.com)
 * 项目链接: [https://github.com/11111-beep/Chartly](https://github.com/11111-beep/Chartly)
 
 ---
